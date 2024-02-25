@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <script type="module" src="registration.js" defer></script>
 </head>
 
 <body>
@@ -30,11 +31,11 @@
     
     <section id="login">
         <h2>Login</h2>
-        <div class="container">
-            <form>
+        <div class="contactcontainer">
+            <form action="" id="loginForm">
                 <div class="form-group">
-                    <label for="fullName">Full Name</label>
-                    <input type="text" id="fullName" name="fullName" required>
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
                 </div>
                 <div class="form-group">
                     <label for="email">Email</label>
@@ -44,8 +45,8 @@
                     <label for="password">Password</label>
                     <input type="password" id="password" name="password" required>
                 </div>
-                <button type="submit">Login</button>
-                <button type="submit">Sign Up</button>
+                <button type="submit" id="logIn">Login</button>
+                <button type="submit" id="signUp">Sign Up</button>
             </form>
         </div>
     </section>
@@ -80,6 +81,8 @@
         </div>
     </footer>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <!-- <script src="index.js"></script> -->
     <script src="script.js"></script>
 </body>
 
