@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <script type="module" src="script.js" defer></script>
 </head>
 
 <body>
@@ -28,68 +29,34 @@
         </div>
     </section>
 
-    <section id="cart" class="section-p1">
-        <table width="100%">
-            <thead class="thead">
-                <tr>
-                    <td>Remove</td>
-                    <td>Image</td>
-                    <td>Product</td>
-                    <td>Quantity</td>
-                    <td>Subtotal</td>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><a href="#"><i id="remove" class="far fa-times-circle"></i></a></td>
-                    <td><img src="product image/women purse 3.png" width="60px " alt="img"></td>
-                    <td> Leather Purse</td>
-                    <td> <input type="number" value="1" class="cartinp"></td>
-                    <td>$97</td>
-                </tr>
-                <tr>
-                    <td><a href="#"><i class="far fa-times-circle" id="remove"></i></a></td>
-                    <td><img src="product image/black jacket.jpg" width="60px " alt="img"></td>
-                    <td> Man black jacket</td>
-                    <td> <input type="number" value="1" class="cartinp" ></td>
-                    <td>$85</td>
-                </tr>
-                <tr>
-                    <td><a href="#"><i class="far fa-times-circle" id="remove"></i></a></td>
-                    <td><img src="product image/belt4.jpg" width="60px " alt="img"></td>
-                    <td> Leather black belt</td>
-                    <td> <input type="number" value="1" class="cartinp"></td>
-                    <td>$18</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
-    </section>
-        <section id="card-add" class="section-p1">
-    <div>
-        <h1>Cart Total:</h1>
-        <table>
-            <tr>
-                <tr>
-                    <td> <strong>Card Subtotals</strong> </td>
-                    <td>$388</td>
-                </tr>
-                <td>
-                    Shipping
-                </td>
-                <td>$12</td>
-            </tr>
-            <tr>
-                <td><strong>Total</strong></td>
-                <td><strong>$400</strong></td>
-            </tr>
-        </table>
-        <button class="normall" > Proceed to checkout</button>
-    </div>
+    <div class="contactcontainer">
+        <form id="contactForm">
+          <h2>Add Product</h2>
+          <div class="form-group">
+            <label for="name">Product Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="price">Price</label>
+            <input type="text" id="Price" name="price" required>
+          </div>
+          <div class="form-group">
+            <label for="file">Upload Product Image</label>
+            <input type="file" id="file" name="file" required>
+          </div>
+          
+          <div class="form-group">
+            <button type="submit" id="add">Add to Shop</button>
+          </div>
+        </form>
+      </div>
+      
     
     
     
-        </section>
+    
+
+
 
 
 
