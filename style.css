@@ -539,6 +539,216 @@ text-transform: uppercase;
     cursor: pointer;
     font-weight: bold;
 }
+/* shop detail  */
+#prodetails .singleimg{
+    width: 40vw;
+    margin-right: 50px;
+
+}
+
+#prodetails{
+    display: flex;
+    margin-top: 20px;
+}
+.singledetails h4{ padding: 40px 0 20px 0;
+
+}
+.singledetails h2{
+    font-size: 26px;
+}
+.singledetails select{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+.singledetails input{
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.singledetails button{
+    background-color: #088178;
+    color: #fff;
+}
+.singledetails span{
+    line-height: 25px;
+}
+
+/* cart  */
+
+
+
+.headers{
+    height: 80px;
+    width: 70%;
+    background-color: goldenrod;
+    border-radius: 3px;
+    margin: 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+  }
+  .headers .logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+  }
+  .cart{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 10px;
+    border-radius: 3px;
+    width: 80px;
+  }
+  .fa-solid{
+    color: goldenrod;
+  }
+  .cart p{
+    height: 22px;
+    width: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 22px;
+    background-color: goldenrod;
+    color: white;
+  }
+  .container{
+    display: flex;
+    width: 70%;
+    margin-bottom: 30px;
+  }
+  #root{
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  .sidebar{
+    width: 40%;
+    border-radius: 5px;
+    background-color: #eee;
+    margin-left: 20px;
+    padding: 15px;
+    text-align: center;
+  }
+  .head{
+    background-color: goldenrod;
+    border-radius: 3px;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+  .foot{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+    padding: 10px 0px;
+    border-top: 1px solid #333;
+  }
+  .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+    padding: 15px;
+  }
+  .img-box{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .images{
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .bottom{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 110px;
+  }
+ 
+  .buttons{
+    width: 100%;
+    position: relative;
+    border: none;
+    border-radius: 5px;
+    background-color: goldenrod;
+    padding: 7px 25px;
+    cursor: pointer;
+    color: white;
+  }
+  .buttons:hover{
+    background-color: #333;
+  }
+  .cart-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+    border-bottom: 1px solid #aaa;
+    border-radius: 3px;
+    margin: 10px 10px;
+  }
+  .row-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid goldenrod;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .rowimg{
+    max-width: 43px;
+    max-height: 43px;
+    border-radius: 50%;
+  }
+  .fa-trash:hover{
+    cursor: pointer;
+    color: #333;
+  }
+  .normall{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 300px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Media Query of home page  */
@@ -603,12 +813,15 @@ text-transform: uppercase;
         top: 35px;
 
     }
+    body{
+        width: 100vw;
+    }
 
 }
 
 @media (max-width: 477px) {
     #header {
-        width: 95vw;
+        width: 100vw;
 
         padding: 5px 20px;
     }
@@ -676,6 +889,7 @@ text-transform: uppercase;
 
     body {
         overflow-x: hidden;
+        width: 100vw;
     }
 
     .herotext {
