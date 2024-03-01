@@ -824,11 +824,10 @@ text-transform: uppercase;
 
 }
 
-@media (max-width: 477px) {
+@media (max-width: 477px)  {
     #header {
         width: 100vw;
-
-        padding: 5px 20px;
+ padding: 5px 20px;
     }
 
     #hero {
@@ -844,7 +843,6 @@ text-transform: uppercase;
         width: 60px;
     }
 
-    }
 
     .topimg {
         width: 200px;
@@ -899,7 +897,7 @@ text-transform: uppercase;
 
     .herotext {
         position: relative;
-        top: 191px;
+        top: 70px;
         left: 7px;
         
     }
@@ -959,4 +957,4 @@ text-transform: uppercase;
             font-size: 6px;
             font-weight: 900;
         }
-}
+    }
