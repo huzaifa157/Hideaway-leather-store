@@ -43,32 +43,12 @@
                 <td>Remove</td>
                 <td>Image</td>
                 <td>Product</td>
+                <td>Size</td>
                 <td>Quantity</td>
                 <td>Subtotal</td>
             </tr>
         </thead>
-        <tbody>
-            <tr>
-                <td><a href="#"><i id="remove" class="far fa-times-circle"></i></a></td>
-                <td><img src="product image/women purse 3.png" width="60px " alt="img"></td>
-                <td> Leather Purse</td>
-                <td> <input type="number" value="1" class="cartinp"></td>
-                <td>$97</td>
-            </tr>
-            <tr>
-                <td><a href="#"><i class="far fa-times-circle" id="remove"></i></a></td>
-                <td><img src="product image/black jacket.jpg" width="60px " alt="img"></td>
-                <td> Man black jacket</td>
-                <td> <input type="number" value="1" class="cartinp" ></td>
-                <td>$85</td>
-            </tr>
-            <tr>
-                <td><a href="#"><i class="far fa-times-circle" id="remove"></i></a></td>
-                <td><img src="product image/belt4.jpg" width="60px " alt="img"></td>
-                <td> Leather black belt</td>
-                <td> <input type="number" value="1" class="cartinp"></td>
-                <td>$18</td>
-            </tr>
+        <tbody id="added">
         </tbody>
     </table>
 </section>
@@ -78,10 +58,10 @@
     <h1>Cart Total:</h1>
     <table>
         <tr>
-            <tr>
-                <td> <strong>Card Subtotals</strong> </td>
-                <td>$388</td>
-            </tr>
+            <td> <strong>Cart Subtotals</strong> </td>
+            <td id="subTotals">$0</td>
+        </tr>
+        <tr>
             <td>
                 Shipping
             </td>
@@ -89,18 +69,17 @@
         </tr>
         <tr>
             <td><strong>Total</strong></td>
-            <td><strong>$400</strong></td>
+            <td><strong id="total">$0</strong></td>
         </tr>
     </table>
-    <button class="normall" > Proceed to checkout</button>
+    <button class="normall" onclick="checkout();"> Proceed to checkout</button>
 </div>
 
 
 
     </section>
 
-</body>
-</html>
+
 
     <footer class="footer">
         <div class="container">
@@ -133,9 +112,8 @@
     </footer>
 
 
+    <script src="checkout.js"></script>
     <script src="script.js"></script>
 </body>
 
-</html>
-</body>
 </html>
