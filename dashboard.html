@@ -28,47 +28,8 @@
         </div>
     </section>
 
-    <section class="section-p1">
-
-        <section id="cart" class="section-p1">
-            <table width="100%">
-                <thead class="thead">
-                    <tr>
-                        <td>Remove</td>
-                        <td>Image</td>
-                        <td>Product</td>
-                        <td>Size</td>
-                        <td>Quantity</td>
-                        <td>Subtotal</td>
-                    </tr>
-                </thead>
-                <tbody id="added">
-                </tbody>
-            </table>
-        </section>
-    
-        <section id="card-add" class="section-p1">
-            <div>
-                <table>
-                    <tr>
-                        <td><strong>Total</strong></td>
-                        <td><strong id="total">$0</strong></td>
-                    </tr>
-                </table>
-                <button class="normall" onclick="checkout();">Order Completed</button>
-            </div>
-        </section>
-
-    </section>
-
-    
-    
-
-
-
-
-
-
+    <main id="dashContent">   
+    </main>
 
 
     <footer class="footer">
@@ -102,6 +63,16 @@
     </footer>
     
 
+    <script>
+        let dashboard = document.querySelector('#dashContent');
+
+        dashboard.innerHTML = localStorage.getItem('dataOfDashboard');
+
+        function remove(btn) {
+            btn.parentNode.parentNode.parentNode.remove();
+            localStorage.setItem('dataOfDashboard', dashboard.innerHTML);
+        }
+    </script>
     <script src="script.js"></script>
 </body>
 
