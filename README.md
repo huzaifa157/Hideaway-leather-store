@@ -28,31 +28,31 @@ CSS3: Stylesheet language for styling the layout and appearance of the website.
 JavaScript: Programming language for adding interactivity and dynamic functionality to the website.
 
 <h2>4. Structure and Layout</h2>
-<h3>4.1 Home Page</h3>
+<h4>4.1 Home Page</h4>
 Hero Section: Highlight featured leather products with captivating images and promotional offers.
 
 Product Categories: Showcase different product categories (e.g., bags, wallets, belts) with clickable thumbnails leading to respective category pages.
 
 Featured Products: Display a selection of featured products with brief descriptions and "Shop Now" buttons for quick access.
 
-<h3></h3>4.2 Product Pages
+<h4>4.2 Product Pages</h4>
 Product Gallery: Present each product with multiple images showcasing different angles and details.
 
 Product Details: Include detailed descriptions, specifications, pricing information, and available variations (e.g., color, size).
 
 Add-to-Cart Button: Allow users to add products to their cart directly from the product page.
 
-4.3 Cart Page
+<h4>4.3 Cart Page</h4>
 Cart Summary: Display a summary of the items added to the cart, including quantity, total price, and option to adjust quantities or remove items.
 
 Proceed to Checkout: Provide a clear call-to-action button for users to proceed to the checkout process.
 
-4.4 Contact Page
+<h4>4.4 Login Page</h4>
 Contact Form: Include fields for name, email, subject, and message to facilitate communication with users.
 
 Additional Contact Information: Display the company's contact information, including email address, phone number, and physical address (if applicable).
 
-4.5 Contact Page
+<h4>4.5 Contact Page</h4>
 Contact Form: Include fields for name, email, subject, and message to facilitate communication with users.
 
 Additional Contact Information: Display the company's contact information, including email address, phone number, and physical address (if applicable).
