@@ -1,6 +1,8 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
 
-import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js";
+import { getAuth, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js";
+
+// import {  createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
@@ -19,29 +21,29 @@ const auth = getAuth(app);
 
 
 //signUp button
-const signUp = document.getElementById("signUp");
-signUp.addEventListener("click", function(event) {
-    event.preventDefault();
+// const signUp = document.getElementById("signUp");
+// signUp.addEventListener("click", function(event) {
+//     event.preventDefault();
 
-    //input
-    const email = document.getElementById("email").value;
-    const password = document.getElementById("password").value;
+//     //input
+//     const email = document.getElementById("email").value;
+//     const password = document.getElementById("password").value;
 
-    createUserWithEmailAndPassword(auth, email, password)
-        .then((userCredential) => {
-            // Signed up 
-            const user = userCredential.user;
-            alert("Creating Account...");
-            window.location.href = "dashboard.html";
-            // ...
-        })
-        .catch((error) => {
-            const errorCode = error.code;
-            const errorMessage = error.message;
-            alert(errorMessage);
-            // ..
-    });
-})
+//     createUserWithEmailAndPassword(auth, email, password)
+//         .then((userCredential) => {
+//             // Signed up 
+//             const user = userCredential.user;
+//             alert("Creating Account...");
+//             window.location.href = "dashboard.html";
+//             // ...
+//         })
+//         .catch((error) => {
+//             const errorCode = error.code;
+//             const errorMessage = error.message;
+//             alert(errorMessage);
+//             // ..
+//     });
+// })
 
 // Log In Button
 const logIn = document.getElementById("logIn");
