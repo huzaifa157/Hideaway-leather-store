@@ -276,7 +276,7 @@ body {
 .footer {
     background-color: #333;
     color: #fff;
-    padding: 110px 0;
+    padding: 50px 0;
     
 }
 
@@ -777,6 +777,8 @@ text-transform: uppercase;
         transition: 0.3sec;
 
     }
+    
+
 
     #navbar.active {
         right: 1px;
@@ -811,7 +813,7 @@ text-transform: uppercase;
 
         height: 70vh;
         padding: 0 80px;
-        background-position: top 30% right 0;
+        background-position: top 30% right -280px;
     }
 
     .heroimage {
@@ -839,6 +841,7 @@ text-transform: uppercase;
             background-color: #e3e6f9;
 
         }
+       
 }
 
 @media (max-width: 477px)  {
