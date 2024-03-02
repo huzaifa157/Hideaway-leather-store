@@ -227,10 +227,10 @@ body {
 #product1 .pro .cart {
     width: 40px;
     height: 40px;
-    line-height: 40px;
+    line-height: 25px;
     border-radius: 50px;
     background-color: lightgrey;
-    font-weight: 700;
+    font-weight: 900;
     color: #088178;
     border: 1px solid #cce7d0;
     position: absolute;
@@ -427,9 +427,10 @@ width: 600px;
   textarea {
     width: 100%;
     padding: 10px;
-    border-radius: 15px;
+    /* border-radius: 15px; */
     border: 1px solid #ccc;
     resize: vertical;
+    
   }
   
   button {
@@ -892,7 +893,7 @@ text-transform: uppercase;
 
     body {
         overflow-x: hidden;
-        width: 100vw;
+        width: 100%;
     }
 
     .herotext {
@@ -908,7 +909,8 @@ text-transform: uppercase;
     }
 
     #product1 .pro {
-        width: 100%;
+        width: 49%;
+        min-width: 0px;
     }
 
     #banner {
@@ -916,7 +918,7 @@ text-transform: uppercase;
     }
 
     .footer {
-        width: 95vw;
+        width: 100vw;
     }
 
     .footer-logo img {
@@ -957,4 +959,34 @@ text-transform: uppercase;
             font-size: 6px;
             font-weight: 900;
         }
-    }
+        .contactcontainer{
+            width: 100%;
+            background-color: #e3e6f9;
+
+        }
+        #loginForm{
+            width: 97%;
+            
+        }
+       .container{
+        width: 99%;
+        margin-bottom: 10px;
+       }
+       .footer-contact{ position: relative;
+        right: 30px;
+        
+       }
+       .footer-left{
+        position: relative;
+        left: 76px;
+        top: -23px;
+       }
+       .footer-bottom p{
+        position: relative;
+        top: 25px;
+       }
+       
+       }
+
+
+    
