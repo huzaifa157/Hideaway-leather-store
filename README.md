@@ -2,10 +2,10 @@
 
 
 Leather Products Website: Pre-Final Project Documentation
-<h3>1. Introduction</h3>
+<h2>1. Introduction</h2>
 The Leather Products Website is a front-end web development project aimed at showcasing a collection of premium leather goods. This website serves as an online platform for users to explore various leather products, including bags, wallets, belts, and accessories. The project focuses on creating an engaging and visually appealing interface to attract potential customers and provide them with a seamless browsing experience.
 
-2. Features
+<h2>2. Features</h2>
 Product Showcase: Display a diverse range of leather products with high-quality images, detailed descriptions, and pricing information.
 
 Responsive Design: Ensure the website is fully responsive, providing an optimal viewing experience across different devices and screen sizes.
@@ -20,14 +20,14 @@ Cart Management: Provide users with the ability to add products to their cart, v
 
 Contact Form: Include a contact form for users to reach out with inquiries, feedback, or support requests.
 
-3. Technologies Used
+<h2>3. Technologies Used</h2>
 HTML5: Markup language for structuring the website's content.
 
 CSS3: Stylesheet language for styling the layout and appearance of the website.
 
 JavaScript: Programming language for adding interactivity and dynamic functionality to the website.
 
-4. Structure and Layout
+<h2>4. Structure and Layout</h2>
 4.1 Home Page
 Hero Section: Highlight featured leather products with captivating images and promotional offers.
 
@@ -52,16 +52,9 @@ Contact Form: Include fields for name, email, subject, and message to facilitate
 
 Additional Contact Information: Display the company's contact information, including email address, phone number, and physical address (if applicable).
 
-5. Challenges and Solutions
+<h2>5. Challenges and Solutions</h2>
 Responsive Design: Ensuring consistent layout and functionality across various devices and screen sizes.
 
 Cross-Browser Compatibility: Testing and optimizing the website to work seamlessly across different web browsers.
 
 Performance Optimization: Optimizing images and code to improve page load times and overall website performance.
-
-6. Future Enhancements
-User Authentication: Implement user authentication and account management functionality for registered users.
-
-Product Reviews: Allow users to leave reviews and ratings for products they have purchased.
-
-Social Media Integration: Integrate social media sharing buttons and feeds to increase the website's visibility and engagement.
