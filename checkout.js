@@ -1,7 +1,7 @@
 let cart = document.querySelector('#added');
 let subTotals = document.querySelector('#subTotals');
 let total = document.querySelector('#total');
-let = customerEmail;
+let customerEmail;
 
 cart.innerHTML = localStorage.getItem('dataOfCart0');
 
