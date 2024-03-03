@@ -886,14 +886,18 @@ text-transform: uppercase;
 
     #hero h1 {
         margin: -14px -23px;
+        color: red;
        
+    }
+    #hero h2{
+        color: red;
     }
 
     #hero h4 {
         font-size: 25px;
         margin: 3px 1px;
         padding-bottom: 7px;
-        color: blueviolet;
+        color: white;
     }
 
     #hero button {
@@ -904,7 +908,8 @@ text-transform: uppercase;
 
     #hero p {
         margin: 36px -7px;
-        color: blueviolet;
+        color: red;
+        font-weight: 700;
     }
 
 
