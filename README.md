@@ -48,10 +48,11 @@ Cart Summary: Display a summary of the items added to the cart, including quanti
 Proceed to Checkout: Provide a clear call-to-action button for users to proceed to the checkout process.
 
 <h4>4.4 Admin Login Page</h4>
-general user email: rashiduzzaman@gmail.com. <be>
+general user email: rashiduzzaman@gmail.com.
+<br>
 password:123456
 
-Additional Contact Information: Display the company's contact information, including email address, phone number, and physical address (if applicable).
+
 
 <h4>4.5 Contact Page</h4>
 Contact Form: Include fields for name, email, subject, and message to facilitate communication with users.
